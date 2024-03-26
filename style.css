@@ -1,0 +1,12 @@
+:root {
+    --white-main: #FFFFFF;
+    --gray-secondary: #C0C0C0;
+    --btn-blue: #167BF7;
+    --bg-color: #00030C;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--white-main);
+}
