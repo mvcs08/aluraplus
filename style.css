@@ -26,6 +26,12 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center; /* alinha tudo o que estiver dentro de um elemento de block*/
+}
+
+.container__box {
+    margin: 0 6em;
 }
 
 .main {
@@ -39,6 +45,10 @@ body {
     font-weight: 700;
 }
 
+.container__image {
+    margin: 1.375em 0 3.375em 0;
+}
+
 .container__btn {
     background-color: var(--btn-blue);
     border-radius: 8px;
@@ -46,6 +56,7 @@ body {
     color: var(--white-main);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .btn__secondary {
