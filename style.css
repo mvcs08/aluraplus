@@ -94,3 +94,12 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+
+.btn__combo {
+    display: inline-block;
+    margin-top: 1.1em;
+}
+
+.padding {
+    padding: 1.5em;
+}
