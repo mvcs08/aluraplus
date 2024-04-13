@@ -5,6 +5,9 @@
     --gray-secondary: #C0C0C0;
     --btn-blue: #167BF7;
     --bg-color: #00030C;
+    --text-description: #b8b8b8;
+    ;
+
 }
 
 * {
@@ -26,8 +29,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: center;
-    text-align: center; /* alinha tudo o que estiver dentro de um elemento de block*/
+
 }
 
 .container__box {
@@ -38,6 +40,8 @@ body {
     background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center; /* alinha tudo o que estiver dentro de um elemento de block*/
 }
 
 .container__title {
@@ -67,4 +71,26 @@ body {
 .container__notice {
     font-size: 12px;
     color: var(--gray-secondary);
+}
+
+.secondary {
+    margin: 0 8em;
+    align-items: center;
+}
+
+.secondary__image {
+    width: 80%;
+}
+
+.secondary__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--white-main);
+    margin-bottom: 0.1em;
+}
+
+.secondary__description {
+    color: var(--text-description);
+    font-size: 16px;
+    line-height: 24px;
 }
